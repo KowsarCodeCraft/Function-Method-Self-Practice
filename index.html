@@ -7,8 +7,68 @@
 </head>
 <body>
     <h1><u>Self Practice on Function and Method</u></h1>
+    
+    <h3><u>Functions in JS</u></h3>
+    <pre>
+        Functions is Block of code that performs a specific task, can be invoked whenever needed.
+        here invoke means call back.If you want to act your function in your code then you have to invoke/call back
+    </pre>
+    <pre>
+        <u>Function Definition</u>
+
+        1. function functionName(){
+            //do your work as per you need
+        } 
+
+        2. function functionName(parameter 1, parameter 2){
+            //do your work as per you need
+        } 
+        Note: here parameter means if you want to put more than one variable inside the parentthesis()
+        
+        <u>Function invoke/call</u>
+
+        functionName();
+
+        <u>Example : 1</u>
+
+        function myFunction(){
+            console.log("Learning Function in JS");
+        } 
+        myFunction();// here this is function call system to see the outcome.
+
+        Ans/output : Learning Function in JS
+
+        <u>Example : 2</u>
+        function sum(x, y) {//here x and y represent parameter. So we can use anything inside this parameter
+            console.log(x+y);
+        }
+        sum(5,15);
+
+        Ans/output : 20
 
 
+        <u>Example : 3</u>
+        //If we use return key word in the function then it will return the required value. 
+
+       function sum(x, y) {
+         s = x + y
+         return s;
+       }
+       let val = sum(5,15);
+       console.log(val);
+
+       <b>Note :</b> If we use return then we can not use anything or any code after the retrun. It will not show anything.
+       So if we want print out anything then we have to write all the code before writing return key word.
+       
+       <b>Note :</b>  function parameter acts like a local variables.
+       which is a block scope of a function. Means anything between 
+       {} curlybrace will only work. as it is block scope. after that nothing will work.
+
+    </pre>
+
+    <h3><u>Arrow Functions</u> </h3>
+
+    
 
 
 
